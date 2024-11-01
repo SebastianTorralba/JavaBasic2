@@ -1,4 +1,4 @@
-package ar.edu.unlar.paradigmas1;
+package ar.edu.unlar.paradigmas1.objetos;
 
 public class Profesor extends Persona {
     private String legajo;

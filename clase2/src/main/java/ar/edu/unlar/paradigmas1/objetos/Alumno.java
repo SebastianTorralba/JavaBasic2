@@ -1,4 +1,4 @@
-package ar.edu.unlar.paradigmas1;
+package ar.edu.unlar.paradigmas1.objetos;
 
 public class Alumno extends Persona {
     private String matricula;
