@@ -1,5 +1,7 @@
 package ar.edu.unlar.paradigmas1.objetos;
 
+import java.util.ArrayList;
+
 public class Alumno extends Persona {
     private String matricula;
     private Boolean cursaActualmente;
@@ -20,4 +22,11 @@ public class Alumno extends Persona {
         this.matricula = matricula;
     }
 
+    @Override
+    public String toString() {
+        return super.toString() + " matricula:"+ getMatricula();
+    }
+    
+    
+    
 }
